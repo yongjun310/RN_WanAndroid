@@ -23,27 +23,27 @@ class BottomTabBar extends PureComponent {
     switch (routeName) {
       case 'Home':
         tabBarLabel = i18n('home');
-        tabBarIconName = 'ios-home';
+        tabBarIconName = 'home-outline';
         tabBarIconSize = dp(50);
         break;
       case 'System':
         tabBarLabel = i18n('system');
-        tabBarIconName = 'ios-school';
+        tabBarIconName = 'school-outline';
         tabBarIconSize = dp(55);
         break;
       case 'WxArticle':
         tabBarLabel = i18n('publicAccount');
-        tabBarIconName = 'ios-people';
+        tabBarIconName = 'people-outline';
         tabBarIconSize = dp(64);
         break;
       case 'Guide':
         tabBarLabel = i18n('Navigation');
-        tabBarIconName = 'ios-rocket';
+        tabBarIconName = 'rocket-outline';
         tabBarIconSize = dp(50);
         break;
       default:
         tabBarLabel = i18n('project');
-        tabBarIconName = 'ios-paper';
+        tabBarIconName = 'document-outline';
         tabBarIconSize = dp(50);
         break;
     }
